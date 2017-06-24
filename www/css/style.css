@@ -1,3 +1,20 @@
+#custom-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  background: linear-gradient(100deg, #c3c3c4, #c3c3c4, #c3c3c4);
+  /*background-image: url('../img/splash.gif');
+  background-position: center;
+  background-repeat: repeat-y;*/
+}
+ 
+
 /* Empty. Add your own CSS if you like */
 .bottom-line {
     border-bottom: 1px solid #c3c3c4;
