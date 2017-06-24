@@ -8,6 +8,6 @@ angular.module('starter.controllers', [])
 
 .controller('DishdetailsCtrl', function($scope, $state) {
     $scope.showfeatures = function () {
-        $state.go('dishfeatures');
+        $state.go('dishinstallation');
     }
 })

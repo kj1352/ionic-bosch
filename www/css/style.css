@@ -4,7 +4,7 @@
   }
 
   .product-title {
-    color: #215f8b;
+    color: #547083;
     font-size: 12px;
     font-weight: bold;
   }
@@ -14,6 +14,7 @@
     border-radius: 5px;
     padding-top: 10px;
     box-shadow: 1px 1px 1px 1px #e5e5e5;
+    background: linear-gradient(180deg, white, white, white, #f9f9ff);
   }
 
   .block > img {
@@ -45,10 +46,11 @@
 }
 
 .header-title {
-    font-size:15px; 
+    font-size:20px; 
     margin-top:10px;
-    margin-left: 15px;
+    margin-left: 40px;
     font-weight: bold;
+    color: #5e5e5e;
 }
 
 .big-symbol {
