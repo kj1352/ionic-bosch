@@ -1,0 +1,69 @@
+/* Empty. Add your own CSS if you like */
+.bottom-line {
+    border-bottom: 1px solid #c3c3c4;
+  }
+
+  .product-title {
+    color: #215f8b;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  
+  .block {
+    border-radius: 5px;
+    padding-top: 10px;
+    box-shadow: 1px 1px 1px 1px #e5e5e5;
+  }
+
+  .block > img {
+    margin-top: 30px;
+  }
+
+.copyright {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    box-shadow: 0px 0px 1px 1px #cacaca;
+}
+
+.content {
+    padding-top: 90px;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+}
+
+.big-nav-button {
+    font-size: 30px;
+    color: #4a4a4a;
+}
+
+.header-title {
+    font-size:15px; 
+    margin-top:10px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.big-symbol {
+    font-size: 30px;
+    color: #4f4e4e;
+  }
+
+.center {
+    text-align: center;
+}
+
+.dishdetails-block {
+    border-radius: 5px;
+    padding-top: 10px;
+    height: 100px;
+    box-shadow: 1px 1px 1px 1px #e5e5e5;
+    color: #4f4e4e;
+  }
