@@ -1,11 +1,11 @@
 angular.module('starter.controllers', [])
 
     .controller('HomeCtrl', function ($scope, $state) {
-/*        $scope.$on('$ionicView.afterEnter', function () {
+      $scope.$on('$ionicView.afterEnter', function () {
             setTimeout(function () {
                 document.getElementById("custom-overlay").style.display = "none";
-            }, 3500);
-        }); */
+            }, 3200);
+        }); 
 
         $scope.dishdetails = function () {
             $state.go('dishdetails');
