@@ -8,14 +8,23 @@
   bottom: 0;
   left: 0;
   z-index: 100;
-  background: linear-gradient(100deg, #c3c3c4, #c3c3c4, #c3c3c4);
-  /*background-image: url('../img/splash.gif');
-  background-position: center;
-  background-repeat: repeat-y;*/
+  /*background: linear-gradient(100deg, #c3c3c4, #c3c3c4, #c3c3c4);
+  background-image: url('../img/splash.gif');
+  background-position: top;*/
+    background-color: black;
+    
+    
 }
- 
+
+
 
 /* Empty. Add your own CSS if you like */
+
+.background-gradient {
+    background: linear-gradient(130deg, #f6f6f6, #f4f4f5, #cececf);
+}
+
+
 .bottom-line {
     border-bottom: 1px solid #c3c3c4;
   }
@@ -31,7 +40,7 @@
     border-radius: 5px;
     padding-top: 10px;
     box-shadow: 1px 1px 1px 1px #e5e5e5;
-    background: linear-gradient(180deg, white, white, white, #eaeaff);
+    background: linear-gradient(180deg, white, white, white, white);
   }
 
   .block > img {
@@ -64,9 +73,11 @@
 
 .header-title {
     font-size:20px; 
-    margin-top:10px;
-    margin-left: 40px;
-    font-weight: bold;
+    position: fixed;
+    top: 20px;
+    right: 5%;
+    width: 40%;
+    font-weight: bolder;
     color: #5e5e5e;
 }
 
@@ -86,3 +97,23 @@
     box-shadow: 1px 1px 1px 1px #e5e5e5;
     color: #4f4e4e;
   }
+
+.details-title {    
+    color: #4f4e4e;
+    font-weight: bolder;
+}
+
+.full-screen {
+    width: 100%;
+    height: 100%;
+}
+
+.header-image {
+    position: fixed;
+    top: 10px;
+    left: 20px;
+}
+
+.third-page {
+    margin-top: 55px;
+}

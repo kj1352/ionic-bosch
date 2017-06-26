@@ -40,7 +40,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 
             .state('dishinstallation', {
                 url: '/dishinstallation',
-                templateUrl: 'templates/dishinstallation.html'
+                templateUrl: 'templates/dishinstallation.html',
+                controller: 'DishdetailsCtrl'
             })
 
         // if none of the above states are matched, use this as the fallback
